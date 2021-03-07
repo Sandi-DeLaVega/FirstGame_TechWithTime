@@ -21,7 +21,7 @@ if age >= 18:
         print("You managed to get across, but were bit by a fish and lost 5 health.")
         health -= 5
 
-      ans = input("You notice a house and a rive. Which way do you go to (river/house)? ")
+      ans = input("You notice a house and a river. Which way do you go to (river/house)? ")
       if ans == "house":
         print("You go to the house and are greeted by the owner... He doesn't like you and you lose 5 health")
         health -= 5
